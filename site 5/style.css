@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(to right, #100a46, #112a9c);
+  margin: 10%;
+}
+
+.tudo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px ;
+    background: linear-gradient(to right, #112a9c, #100a46);
+    padding: 50px;
+    width: 350px;
+    color: white;
+    
+}
+
+input {
+    width: 300px;
+    background-color: white;
+    border-radius: 0%;
+}
+
+button {
+    cursor: pointer;
+    width: 300px;
+    padding: 5px;
+    border-radius: 100px;
+    gap: 50px;
+    transition: 0.5s;
+    
+}
+
+#tudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicial {
+    text-align: center;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+button:hover{
+    transform: translateY(3px);
+    box-shadow: 0 0 10px #00c6ff,
+                0 0 20px #0072ff,
+                0 0 30px #764ba2;
+}
